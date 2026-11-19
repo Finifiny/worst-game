@@ -1,0 +1,39 @@
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #e74c3c;
+  border-radius: 50%;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #2ecc71;
+}
+
+#title {
+  margin: 20px;
+  color: rgb(25, 194, 98);
+}
+
+#myButton {
+  position: absolute;
+  top: 450px;
+  left: 720px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: rgb(25, 194, 98);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
